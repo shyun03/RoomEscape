@@ -108,7 +108,7 @@ const unsigned long INPUT_TIMEOUT_MS = 25000;
 const int READ_DELAY_US = 30;
 
 // 허가된 RFID UID
-byte ALLOWED[][4] = { {0x79, 0xA9, 0xEC, 0x20} };
+byte ALLOWED[][4] = { {0x00, 0x00, 0x00, 0x00} }; //변경
 const int ALLOWED_COUNT = sizeof(ALLOWED) / sizeof(ALLOWED[0]);
 
 // PIN 설정
